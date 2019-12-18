@@ -1,0 +1,86 @@
+
+
+
+
+
+
+.control {
+  background: #f0f0f0;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 2%;
+  transition: opacity 1s;
+  -webkit-transition: opacity 1s;
+}
+
+.control h1{
+  background: #3399cc;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+
+body{
+
+background: url(../img/back.jpg);
+background-repeat:  no-repeat;
+background-size: cover;
+
+}
+
+.container {
+  
+
+  background: #f0f0f0;
+  padding: 2% 2%;
+}
+
+.control img{
+
+display: block;
+margin: 0 auto;
+height: 100px;
+width: 100px;
+
+
+}
+.control input[type="text"],
+.control input[type="email"],
+.control input[type="password"] {
+  width: 92%;
+  background: #fff;
+  margin-bottom: 2%;
+  border: 1px solid #ccc;
+  padding: 4%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 95%;
+  color: #555;
+}
+
+.control input[type="submit"] {
+  width: 100%;
+  background: #3399cc;
+  border: 2px;
+  padding: 4%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  color: #fff;
+  cursor: pointer;
+  transition: background .3s;
+  -webkit-transition: background .3s;
+  margin: 0px 0px 5px 0px;
+
+  
+
+}
+
+.control input[type="submit"]:hover {
+  background: #2288bb;
+}
+
